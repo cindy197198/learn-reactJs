@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #282c34;
 }
 
 .App-logo {
@@ -22,6 +25,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App .header {
+  padding: 10px 5px;
+  display: flex;
+  border-bottom: 1px solid #bebebe;
+}
+
+.App .header input {
+  font-family: 'Helvetica Neue',
+    Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 10px;
+  border: none;
+  width: 100%;
+}
+
+.App .header input:focus {
+  outline: none;
 }
 
 .App-link {
